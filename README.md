@@ -8,7 +8,7 @@
 - 🟢 Boundary crossing is done through interfaces, introducing little rigidity.
 - 🟢 Library components are easily reusable from one feature to another.
 - 🟢 Libraries are generally stable, preserving the decreasing instability gradient.
-- 🟠 Features (domain) become coupled to technical implementation details exposed by the libraries.
+- 🔴 Features (domain) become coupled to technical implementation details exposed by the libraries.
 - 🟠 This limits the ability of features to drive design through their own functional contracts.
 
 ## Option 2: The features are unaware of the library.
