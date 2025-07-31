@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Libraries\Infrastructure;
+namespace App\Libraries\Async\Infrastructure;
 
-use App\Libraries\Api\AsyncCommand;
+use App\Libraries\Async\Api\AsyncCommand;
 
 class GenericAsyncJob implements ShouldQueue
 {
-    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+    use Dispatchable, InteractsWithQueue, Queueable;
 
     public int $tries;
     public int $timeout;
@@ -27,4 +27,4 @@ class GenericAsyncJob implements ShouldQueue
     {
         $this->command->execute();
     }
-}
+} 

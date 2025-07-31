@@ -2,7 +2,7 @@
 
 namespace App\Features\Order\Create\Services;
 
-use App\Libraries\Api\AsyncCommand;
+use App\Libraries\Async\Api\AsyncCommand;
 
 class CreateOrder implements AsyncCommand
 {

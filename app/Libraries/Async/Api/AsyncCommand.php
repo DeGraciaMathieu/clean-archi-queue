@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Libraries\Api;
+namespace App\Libraries\Async\Api;
 
 interface AsyncCommand
 {
@@ -8,4 +8,4 @@ interface AsyncCommand
     public function getTries(): int;
     public function getTimeout(): int;
     public function getQueue(): ?string;
-}
+} 

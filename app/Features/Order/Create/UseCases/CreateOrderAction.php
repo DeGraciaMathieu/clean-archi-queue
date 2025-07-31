@@ -2,7 +2,7 @@
 
 namespace App\Features\Order\Create\UseCases;
 
-use App\Libraries\Api\AsyncDispatcher;
+use App\Libraries\Async\Api\AsyncDispatcher;
 use App\Features\Order\Create\Services\CreateOrder;
 use App\Features\Order\Create\UseCases\CreateOrderInput;
 use App\Features\Order\Create\UseCases\CreateOrderOutput;
