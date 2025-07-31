@@ -13,7 +13,7 @@
 
 ## Option 2: The features are unaware of the library.
 
-<img width="772" height="479" alt="image" src="https://github.com/user-attachments/assets/1b5228b8-4b74-4b15-a9b7-635dca9a95ed" />
+<img width="756" height="474" alt="image" src="https://github.com/user-attachments/assets/e57c0bde-4be0-4059-83bb-9101e8b706b9" />
 
 - 🟢 Dependencies between components are unidirectional.
 - 🟢 Boundary crossing is done through interfaces, introducing little rigidity.
